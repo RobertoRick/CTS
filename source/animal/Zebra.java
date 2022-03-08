@@ -1,4 +1,4 @@
-package src.source.animal;
+package source.animal;
 
 import static java.lang.System.out;
 

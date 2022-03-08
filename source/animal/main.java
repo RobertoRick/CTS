@@ -1,6 +1,4 @@
-package src.source.animal;
-
-import static java.lang.System.out;
+package source.animal;
 
 public class main {
     public static void main(String[] args) {
@@ -9,7 +7,6 @@ public class main {
         Zebra z = new Zebra("zebra1");
         Girafa g2 = new Girafa("girafa2");
         Zebra z2 = new Zebra("zebra2");
-
 
         zoo.adaugaAnimal(g);
         zoo.adaugaAnimal(g2);

@@ -1,4 +1,4 @@
-package src.source.animal;
+package source.animal;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,9 +7,6 @@ public class ZOO {
     private String nume;
     private IngrijitorZoo ingrijitor;
     private List<Animal> listAnimale;
-
-    public ZOO(String zoo1, source.animal.IngrijitorZoo roberto) {
-    }
 
     public String getNume() {
         return nume;

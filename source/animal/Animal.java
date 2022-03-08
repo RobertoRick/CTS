@@ -1,20 +1,15 @@
-package src.source.animal;
-
-import static java.lang.System.out;
+package source.animal;
 
 public abstract class Animal {
     private String nume;
-
-    public Animal(String nume) {
-        this.nume = nume;
-    }
 
     public String getNume() {
         return nume;
     }
 
-    public void setNume(String nume) {
+    public Animal(String nume) {
         this.nume = nume;
     }
+
     public abstract void mananca(String mancare);
 }
